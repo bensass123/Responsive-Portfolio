@@ -261,7 +261,7 @@ a:active {
 	color: #beb6ac;
 	text-align: right;
 	font-family: sans-serif;
-	padding-right: 150px;
+	padding-right: 336px;
 	padding-top: 2.5%;
 }
 
@@ -328,6 +328,21 @@ form {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+	.aboutmap{
+		position:relative;
+		left:0;
+	}
+
+	.portfoliomap{
+		position:relative;
+		left:129px;
+	}
+
+	.contactmap{
+		position:relative;
+		left: 241px;
+	}
+
 @media only screen and (max-width: 980px) and (min-width: 769px){
 
 	.container {
@@ -356,7 +371,7 @@ form {
 	}
 
 	.map {
-	padding-right: 101px;
+	padding-right: 150px;
 	padding-top: 3.5%;
 	}
 
@@ -382,6 +397,21 @@ form {
 	.leftframe{
 		width:323px;
 		height:100%;
+	}
+
+	.aboutmap{
+		position:relative;
+		left:0;
+	}
+
+	.portfoliomap{
+		position:relative;
+		left:53px;
+	}
+
+	.contactmap{
+		position:relative;
+		left: 95px;
 	}
 }
 
@@ -414,7 +444,7 @@ form {
 	}
 
 	.map {
-		padding-right: 9%;
+		padding-right: 150px;
     	padding-top: 4.5%;
 	}
 
@@ -425,6 +455,21 @@ form {
 
 	.name {
 		margin-left: 2%;
+	}
+
+	.aboutmap{
+		position:relative;
+		left:0;
+	}
+
+	.portfoliomap{
+		position:relative;
+		left:64px;
+	}
+
+	.contactmap{
+		position:relative;
+		left: 119px;
 	}
 }
 
@@ -449,12 +494,12 @@ form {
 
 	.portfoliomap{
 		position:relative;
-
+		left: 189px;
 	}
 
 	.contactmap{
 		position: relative;
-		left: 171px;
+		left: 360px;
 	}
 
 	.name {
@@ -477,6 +522,7 @@ form {
 	}
 
 	.map {
+		/*padding-right: 150px;*/
 		position: relative;
 	    top: 9px;
 	    right: 32px;
@@ -490,7 +536,7 @@ form {
 	    top: 0;
 	    bottom: 0;
 	    right: 0px;
-	    left: 0;
+	    left: 34px;
 	    padding-right: 2%;
 	    padding-left: 2%;
 	    font-family: 'Georgia', Times, Times New Roman, serif;
@@ -508,6 +554,7 @@ form {
 
 	.article {
 		width: 500px;
+		left: 29px;
 	}
 
 	.selfpic{
@@ -518,6 +565,16 @@ form {
 		width: 500px;
 		height: 500px;
 	}
+
+	.i1{
+		position:relative;
+		left: 94px;
+	}
+
+	.portfolio{
+		text-align: center;
+	}
+
 
 	
 }
